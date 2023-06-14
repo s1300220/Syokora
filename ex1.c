@@ -13,6 +13,6 @@ int main(){
     sum+=num[i];
   }
   printf("Total value: %d\n" ,sum);
-  if(sum>7)printf("you won!");
-  else printf("you lost!");
+  if(sum>7)printf("%s won!",str);
+  else printf("%s lost!",str);
 }
